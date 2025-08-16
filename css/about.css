@@ -1,0 +1,50 @@
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    transition: .5s ;
+    background: white;
+}
+
+.navbar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__logo{
+    display: flex;
+    align-items:center;
+    gap: 30px;
+}
+.navbar__logo img{
+    width: 56px;
+}
+
+.navbar__lists{
+    display: flex;
+    gap: 20px;
+}
+.navbar__link{
+    font-weight: 500;
+    font-size: 18px;
+}
+.navbar__options{
+    display: flex;
+    gap: 20px;
+}
+.navbar__options select{
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+.navbar__options a{
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar__options i{
+    font-size: 20px;
+}
