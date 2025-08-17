@@ -98,15 +98,16 @@
 .product__wrapper {
   display: flex;
   margin-top: 40px;
-  gap: 20px;
+  gap: 50px;
   overflow: auto;
   margin: 40px;
 }
 
 .product__card {
-  min-width: 300px;
-  width: 310px;
+  min-width: 320px;
+  width: 320px;
   text-align: center;
+  overflow: hidden;
 }
 .product__image {
   position: relative;
@@ -215,11 +216,14 @@
   position: relative;
 }
 
+.values__body{
+  /* position: absolute; */
+  margin-top: 10%;
+}
+
 .values__image img {
-  width: 80px;
-  height: 80px;
   display: flex;
-  margin: 0 auto;
+  margin-left: 40%;
 }
 
 .values__body a {
